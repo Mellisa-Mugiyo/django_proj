@@ -30,7 +30,7 @@ You can also fork this repo or pull it as image from Docker Hub as https://hub.d
 Update the origin to point to your own Git repo:
 
 ***
-$ git remote set-url origin https://github.com/Mellisa-Mugiyo/django_proj.git
+$ git remote set-url origin (The url)
 
 
 
