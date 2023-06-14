@@ -20,17 +20,17 @@ Installation
 ***
 First install docker
 next clone to this repo
-(django-repo)
+$ https://github.com/Mellisa-Mugiyo/django_proj.git
 $ cd myschoolband
 
 (Mac users should clone it to a directory under /Users because of a Docker bug involving Mac shared directories.)
 
-You can also fork this repo or pull it as image from Docker Hub 
+You can also fork this repo or pull it as image from Docker Hub as https://hub.docker.com/repository/docker/mellisa2/django_repo/general
 
 Update the origin to point to your own Git repo:
 
 ***
-$ git remote set-url origin (The url)
+$ git remote set-url origin https://github.com/Mellisa-Mugiyo/django_proj.git
 
 
 
@@ -85,8 +85,14 @@ $ fab deploy_production
 
 This builds the Docker image, pushes it to Docker Hub, pulls it on the production server, and starts a container with the production settings
 
-Verify that your production settings (not the development settings!) are active. Navigate to http://<ip address>/spamalot. You should see the basic Nginx "not found" page. If you see the full Django error page, that means that DEBUG = True, which probably means that your production settings are not loaded.
 
 
- 
+
+
+
+
+
+
+
+
 
