@@ -19,7 +19,7 @@ def home(request):
 
 def information(request):
     """Constructor method, This method will be used to ask request 
-   for the  html page
+   for the html page.
 
    :param request: request objects are used  to pass state through the system
    since the html page has been requested, Django creates an HttpRequest object that
