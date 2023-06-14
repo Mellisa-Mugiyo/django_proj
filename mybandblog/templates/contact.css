@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:whitesmoke;
+    font-size: 14px;
+    
+}
+.container{
+    width:50%;
+    margin: 25% auto;
+
+}
+.contact-box{
+    background-color: yellow;
+    display:flex;
+}
+
+.contact-left{
+    flex-basis: 60%;
+    padding:40px 60px;
+}
+
+contact-right{
+    flex-basis: 40%;
+    padding:40px 60px;
+    background-color: aquamarine;
+    color: white;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+.container p{
+    margin-bottom: 40px;
+
+}
+.input-row .input-group{
+    flex-basis: 45%;
+
+}
+
+input{width: 100%;
+    border: none;
+    border-bottom: 1px solid red;
+    outline: none;
+    padding-bottom: 5px;
+
+}
+textarea{
+    width: 100%;
+    border: 1px solid blue;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: brown;
+}
+
+button{
+    background-color: green;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px rgba(28,0,188, 0.3);
+}
+.contact-left h3{
+    color: red;
+    font-weight:600;
+    margin-bottom: 30px;
+}
+
+.contact-right h3{
+    
+    font-weight:600;
+    margin-bottom: 30px;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td{
+    padding-top: 20px;
+}

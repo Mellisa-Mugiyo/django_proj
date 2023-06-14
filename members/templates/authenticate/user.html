@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<head>
+    <title>welcome </title>
+</head>
+ <a href="/members/logout">logout</a>  
+<h1> Welcome</h1>
+<h2>The band has the following members:</h2>
+<ul>
+    {% for member in name %}
+            <li> Name: {{ member.name_member }}  Age: {{ member.age_member }}</li> 
+    {% endfor %}
+</ul>
