@@ -20,7 +20,7 @@ Installation
 ***
 First install docker
 next clone to this repo
-$ github.com/Mellisa-Mugiyo/django_proj.git
+(django-repo)
 $ cd myschoolband
 
 (Mac users should clone it to a directory under /Users because of a Docker bug involving Mac shared directories.)
